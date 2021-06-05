@@ -9,11 +9,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
+
 /* Ids */
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
+
 
 /* Class */
 .big-heading{
@@ -26,6 +28,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 15%;
 }
 
+.colored-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section{
+    background-color: #ffffff;
+    color: #000000;
+
+}
 /* Navigation bar */
 .navbar{
     padding: 0 0 4.5rem ;
@@ -57,4 +69,34 @@ h1, h2, h3, h4, h5, h6 {
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+}
+
+
+/* Features */
+#features{
+    position: relative;
+}
+.container-features{
+    text-align: center;
+}
+
+.feature-box{
+    padding : 5%;
+}
+
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-desc{
+    color: #8f8f8f;
 }
