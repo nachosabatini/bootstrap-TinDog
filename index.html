@@ -82,7 +82,7 @@
 
     <!-- Features -->
     <section id="features" class="white-section">
-      <div class="container-fluid container-features">
+      <div class="container-fluid">
         <div class="row">
 
           <div class="feature-box col-lg-4">
@@ -108,36 +108,43 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials" class="colored-section">
-      <h2>
-        I no longer have to sniff other dogs for love. I've found the hottest
-        Corgi on TinDog. Woof.
-      </h2>
-      <img src="images/dog-img.jpg" alt="dog-profile" />
-      <em>Pebbles, New York</em>
-
-      <h2 class="testimonial-text">
-        My dog used to be so lonely, but with TinDog's help, they've found the
-        love of their life. I think.
-      </h2>
-      <img
-        class="testimonial-image"
-        src="images/lady-img.jpg"
-        alt="lady-profile"
-      />
-      <em>Beverly, Illinois</em> -->
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="pause" data-keyboard="true">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-title">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-title">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em> 
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div> 
     </section>
 
     <!-- Press -->
-    <section id="press" class="colored-section">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+    <section id="press">
+      <img class="press-icons" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-icons" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-icons" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="press-icons" src="images/mashable.png" alt="mashable-logo" />
     </section>
 
     <!-- Pricing -->
-    <section id="pricing" class="white-section">
+    <section id="pricing" class="colored-section">
       <h2>A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
 
@@ -165,14 +172,14 @@
     </section>
 
     <!-- Call to Action -->
-    <section id="cta" class="colored-section">
+    <section id="cta" class="white-section">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
       <button type="button">Download</button>
       <button type="button">Download</button>
     </section>
 
     <!-- Footer -->
-    <footer id="footer" class="white-section">
+    <footer id="footer" >
       <p>© Copyright 2018 TinDog</p>
     </footer>
   </body>
