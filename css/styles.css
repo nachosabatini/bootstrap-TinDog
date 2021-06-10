@@ -10,9 +10,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Ids */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Class */
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 .colored-section {
@@ -69,9 +69,21 @@ h1,h2,h3,h4,h5,h6 {
   right: 30%;
 }
 
+@media (max-width:1120px){
+    .title-img{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        padding-top: 50px;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
 /* Features */
 #features {
-  padding: 7% 15%;
   position: relative;
 }
 
@@ -153,3 +165,32 @@ h1,h2,h3,h4,h5,h6 {
     color: #8f8f8f;
 }
 
+/* CTA */
+#cta {
+    text-align: center;
+}
+
+.cta-title{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+#footer {
+    text-align: center;
+}
+.social-icon{
+    color: black;
+    padding: 1rem;
+
+}
+
+.social-icon:hover{
+    color: #ff4c68;
+}
+
+.copyright{
+    color: #8f8f8f;
+    padding: 1rem;
+}
