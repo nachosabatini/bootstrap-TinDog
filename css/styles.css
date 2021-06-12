@@ -1,11 +1,10 @@
 /* Elements */
 body {
   font-family: "Montserrat", sans-serif;
-  /* text-align: center; */
+  text-align: center;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  /* font-family: 'Montserrat', sans-serif; */
+h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
@@ -34,6 +33,7 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #ffffff;
   color: #000000;
 }
+
 /* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
   right: 30%;
 }
 
-@media (max-width:1120px){
+@media (max-width:1120px) {
     .title-img{
         width: 60%;
         transform: rotate(0deg);
@@ -89,7 +89,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .icons {
@@ -111,7 +110,6 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -122,13 +120,8 @@ h1,h2,h3,h4,h5,h6 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3rem;
 }
 
@@ -139,58 +132,41 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Pricing */
 
-#pricing {
-  text-align: center;
-}
-
 .section-heading {
-   font-size: 3.5rem ;
-   line-height: 1.5; 
+  font-size: 3.5rem ;
+  line-height: 1.5; 
 }
 .pricing-col {
-    padding: 3% 2%;
+  padding: 3% 2%;
 }
 
 .pricing-title {
-    font-weight: bold;
-    font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .pricing-subtitle {
-    font-weight: bold;
-    font-size: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 .pricing-desc {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
-
-/* CTA */
-#cta {
-    text-align: center;
-}
-
-.cta-title{
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 
 /* Footer */
-#footer {
-    text-align: center;
-}
-.social-icon{
-    color: black;
-    padding: 1rem;
+
+.social-icon {
+color: black;
+padding: 1rem;
 
 }
 
-.social-icon:hover{
-    color: #ff4c68;
+.social-icon:hover {
+  color: #ff4c68;
 }
 
-.copyright{
-    color: #8f8f8f;
-    padding: 1rem;
+.copyright {
+  color: #8f8f8f;
+  padding: 1rem;
 }
